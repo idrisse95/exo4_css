@@ -36,7 +36,7 @@ a[href*="./"]{
     border-top: 1px red solid;
 }
 
-section:nth-child(2)~section:nth-child(odd){
+section:nth-child(2)~section:nth-child(odd)>h2{
     background-color: black;
     color: white;
 }
