@@ -14,3 +14,8 @@ section:nth-child(2) ul>li:nth-child(2):hover{
 section span~p{
     background-color: green;
 }
+
+
+section li:first-child{
+    border-left: 1px solid black;
+}
