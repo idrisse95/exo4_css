@@ -27,3 +27,7 @@ section:nth-child(even){
 section:nth-child(7):hover h2{
     font-size: 30px;
 }
+
+a[href*="./"]{
+    border-top: 1px red solid;
+}
