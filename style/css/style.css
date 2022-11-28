@@ -19,3 +19,7 @@ section span~p{
 section li:first-child{
     border-left: 1px solid black;
 }
+
+section:nth-child(even){
+    background-color: yellow;
+}
