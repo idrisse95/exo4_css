@@ -27,12 +27,16 @@ section:nth-child(even){
 section:nth-child(7):hover h2{
     font-size: 30px;
 }
+ input:focus{
+    background-color: black;
+    color: white;
+}
 
 a[href*="./"]{
     border-top: 1px red solid;
 }
 
-section:nth-child(1)~section:nth-child(even){
+section:nth-child(2)~section:nth-child(odd){
     background-color: black;
     color: white;
 }
