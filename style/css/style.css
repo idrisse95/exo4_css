@@ -31,3 +31,8 @@ section:nth-child(7):hover h2{
 a[href*="./"]{
     border-top: 1px red solid;
 }
+
+section:nth-child(1)~section:nth-child(even){
+    background-color: black;
+    color: white;
+}
